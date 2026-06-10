@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/00_employeedb_script.sql" value="9d2e16ed-4633-46ff-9d02-ad08cf36c5b0" />
+    <file url="file://$PROJECT_DIR$/00_init.sql" value="85e26490-c547-4c4d-a086-56683345613d" />
+    <file url="file://$PROJECT_DIR$/00_menudb_script.sql" value="ba690917-d5ae-400a-9890-eb2edb0eadbf" />
+    <file url="file://$PROJECT_DIR$/01_table_datatype.sql" value="ba690917-d5ae-400a-9890-eb2edb0eadbf" />
+    <file url="file://$PROJECT_DIR$/02_dql_select_1.sql" value="ba690917-d5ae-400a-9890-eb2edb0eadbf" />
+    <file url="file://$PROJECT_DIR$/03_dql_select_2.sql" value="9d2e16ed-4633-46ff-9d02-ad08cf36c5b0" />
+    <file url="file://$PROJECT_DIR$/homework/01_select_homework_1.sql" value="ba690917-d5ae-400a-9890-eb2edb0eadbf" />
+    <file url="file://$PROJECT_DIR$/homework/02_select_homework_2.sql" value="9d2e16ed-4633-46ff-9d02-ad08cf36c5b0" />
+  </component>
+</project>
