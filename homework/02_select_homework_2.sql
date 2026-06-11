@@ -19,19 +19,25 @@ limit 3;
 
 # Q2.
 select
-    employee.EMP_NAME,
-    JOB_CODE,
-    employee.SALARY,
-    employee.EMP_ID,
-    employee.EMAIL,
-    employee.PHONE,
-    employee.HIRE_DATE
+    employee.EMP_NAME as `직원명`,
+    department.DEPT_TITLE as 직급명,
+    employee.SALARY as 급여,
+    employee.EMP_ID as 사원번호,
+    employee.EMAIL as 이메일,
+    employee.PHONE as 전화번호,
+    employee.HIRE_DATE as 입사일
 from
     employee
+join
+    department
+on
+    employee.DEPT_CODE = department.DEPT_ID
+
 where
-    ENT_YN = 'N'
+    employee.ENT_YN = 'N'
 order by
-    SALARY desc;
+    employee.SALARY desc;
 
 
-select * from employee
+select * from employee;
+select * from department;
