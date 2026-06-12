@@ -4,6 +4,7 @@
     <data-source source="LOCAL" name="root 계정" uuid="85e26490-c547-4c4d-a086-56683345613d">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
@@ -11,6 +12,7 @@
     <data-source source="LOCAL" name="skn_ai_menudb" uuid="ba690917-d5ae-400a-9890-eb2edb0eadbf">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/menudb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
@@ -18,6 +20,7 @@
     <data-source source="LOCAL" name="skn_ai_employeedb" uuid="9d2e16ed-4633-46ff-9d02-ad08cf36c5b0">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/employeedb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
